@@ -16,7 +16,7 @@ namespace CoreWebAppXUnit1.UnitTest
             var result = sut.Index();
 
             // Assert
-            Assert.NotNull(result);
+            Assert.Null(result);
         }
     }
 }
